@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>O jakim miejscu napiszesz?</h2>
+
+            <form [formGroup]="postForm" novalidate>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <label>
+                            Tytuł
+                            <input type="text" formControlName="title">
+                        </label>
+                        <p *ngIf="showErrors && postForm.get('title').errors?.minlength" style="color:red;font-weight:bold;">
+                        Temat posta musi składać się z co najmniej 3 znaków.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="text">
+                             Treść
+                            </label>
+                            <textarea
+                            type="text"
+                            id="text"
+                            formControlName="text"
+                            class="form-control"
+                            rows="20"></textarea>
+                            <p *ngIf="showErrors && postForm.get('text').errors?.minlength" style="color:red;font-weight:bold;">
+                            Treść posta musi składać się z co najmniej 3 znaków.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success" (click)="save()">Zapisz</button>
+                <button type="button" class="btn btn-warning btn-space" routerLink="/post-list">Przejdź do listy postów</button>
+            </form>
+        </div>
+    </div>
+</div>

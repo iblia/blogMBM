@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Kraków - Kopiec Kościuszki",
+      "text": "Kopiec Kościuszki – jeden z pięciu kopców krakowskich, poświęcony Tadeuszowi Kościuszce, znajduje się na Górze św. Bronisławy w zachodniej części Krakowa na terenie dzielnicy administracyjnej Zwierzyniec.\n\nKopcem Kościuszki w Krakowie od czasu budowy w 1820–1823 nieprzerwanie zarządza Komitet Kopca Kościuszki w Krakowie ustanowiony w 1820 roku. \n\nPrzy kopcu funkcjonuje Muzeum Kościuszkowskie.",
+      "id": 1
+    },
+    {
+      "title": "Zabrze - Kopalnia Guido",
+      "text": "Powstanie kopalni Guido w Zabrzu wiąże się z XIX-wieczną rewolucją przemysłową na Górnym Śląsku. Książę Guido Henckel von Donnersmarck - wielki magnat ziemski i przemysłowiec, założył tu w 1855 roku kopalnię węgla kamiennego nazwaną od jego imienia.\n\nGdy złoża węgla się tu wyeksploatowały, kopalnię przekształcono w węzeł odwadniania regionu, ale i on z czasem stracił na znaczeniu. W 2007 roku, jako efekt starań nad popularyzacją śląskich zabytków techniki, udostępniono dla turystów Zabytkową Kopalnię Węgla Kamiennego Guido. Dziś słynna Kopalnia Guido jest oddziałem Muzeum Górnictwa Węglowego w Zabrzu.",
+      "id": 2
+    },
+    {
+      "title": "Ogrodzieniec - Zamek",
+      "text": "Przez cały rok do Ogrodzieńca chętnie i tłumnie przybywają turyści, a właściwie do Podzamcza, położonego 2 km na wschód od Ogrodzieńca. Ulokowane są tutaj ruiny XIV-wiecznego, wspaniałego zamku Bonerów, świetnie wkomponowanego w najwyższe wzniesienie Jury - Górę Janowskiego (504 m n.p.m.).\n\nZamek udostępniony jest do zwiedzania, niemal każdy jego fragment. Na dziedzińcu przez cały sezon organizowane są ciekawe imprezy, ściągające tu prócz turystów, rycerzy i białogłowy. Jedną z popularniejszych jest Turniej Rycerski organizowany co roku z udziałem bractw rycerskich.",
+      "id": 3
+    }
+  ]
+}

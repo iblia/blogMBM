@@ -1,0 +1,26 @@
+<nav class="navbar navbar-inverse navbar-static" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" 
+              class="navbar-toggle" 
+              data-toggle="collapse" 
+              data-target="#navbar-collapse-1"
+              (click)="toggleState()">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <li><a class="navbar-brand" href="#">Mój blog</a></li>
+    </div>
+
+    <div class="collapse navbar-collapse in" 
+      [ngClass]="{ 'in': isIn }"
+      id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/post-list">Posty</a></li>
+        <li routerLinkActive="active"><a routerLink="/about">O autorze</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

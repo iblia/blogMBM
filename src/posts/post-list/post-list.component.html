@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Lista wpisów</h3>
+            <form class="navbar-form navbar-centre">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Czego szukasz?" #queryInput>
+                </div>
+                    <button type="button" class="btn btn-success btn-space" (click)="search(queryInput.value)">Wyszukaj</button>
+            </form>
+            <ul>
+        <!--
+            posts to Promise przechowujacy liste kanapek
+            przy pomocy `async` Angular "rozpakuje" liste kanapek z Promise
+        -->
+            <mbm-post-item *ngFor="let post of posts | async"
+                           [post]="post"
+                           (delete)="onDelete($event)">
+            </mbm-post-item>
+            </ul>
+        </div>
+    </div>
+</div>
